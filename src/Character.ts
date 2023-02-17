@@ -12,7 +12,7 @@ class Character implements Fighter {
   private _strength: number;
   private _defense: number;
   private _dexterity: number;
-  protected readonly _energy: Energy;
+  private _energy: Energy;
   private _name: string;
 
   constructor(name: string) {
@@ -37,25 +37,26 @@ class Character implements Fighter {
   get archetype(): Archetype {
     return this._archetype;
   }
-  
+
   get lifePoints(): number {
     return this._lifePoints;
   }
-  
+
   get strength(): number {
     return this._strength;
   }
-  
+
   get defense(): number {
     return this._defense;
   }
-  
+
   get dexterity(): number {
     return this._dexterity;
   }
 
   get energy(): Energy {
-    return this._energy;
+    const obj = { ...this._energy };
+    return obj;
   }
 
   receiveDamage(attackPoints: number): number {
