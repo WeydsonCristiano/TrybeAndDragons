@@ -1,6 +1,6 @@
 # Battle PvP RPG (Role Playing Game).
 
-# Para este projeto, você deverá aplicar os princípios da arquitetura SOLID e os princípios de POO em uma estrutura de jogos de interpretação de papéis, mais conhecidos como jogos RPG (Role Playing Game).
+ Para este projeto, você deverá aplicar os princípios da arquitetura SOLID e os princípios de POO em uma estrutura de jogos de interpretação de papéis, mais conhecidos como jogos RPG (Role Playing Game).
 
 Neste projeto criei um banco de dados de personagens e criamos batalhas simulandas entre personagens.
 
